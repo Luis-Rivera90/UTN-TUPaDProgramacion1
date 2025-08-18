@@ -37,7 +37,7 @@ print(f"La cantidad de horas equivalente a {segundos} segundos es de {horas} hor
 
 #6) Crear un programa que pida al usuario un número e imprima por pantalla la tabla de multiplicar de dicho número.
 
-num = int(input("Ingrese un número: "));
+num = int(input("Ingrese un número: "))
 
 print( f"{num} x 1 = {num * 1}")
 print( f"{num} x 2 = {num * 2}")
