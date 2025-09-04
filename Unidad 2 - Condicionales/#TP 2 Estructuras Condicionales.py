@@ -58,9 +58,9 @@ num_media = mean(numeros_aleatorios)
 num_mediana = median(numeros_aleatorios)
 num_moda = mode(numeros_aleatorios)
 
-print("Media:", num_media)
-print("Mediana:", num_mediana)
-print("Moda:", num_moda)
+print(f"Media: {num_media}")
+print(f"Mediana: {num_mediana}")
+print(f"Moda: {num_moda}")
 
 if num_media > num_mediana and num_mediana > num_moda:
     print("Hay sesgo positivo.")
